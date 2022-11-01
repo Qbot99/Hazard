@@ -13,6 +13,8 @@
 		1A8EAA42290F189C007AA1BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EAA30290F189B007AA1BB /* ContentView.swift */; };
 		1A8EAA43290F189C007AA1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8EAA31290F189C007AA1BB /* Assets.xcassets */; };
 		1A8EAA44290F189C007AA1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8EAA31290F189C007AA1BB /* Assets.xcassets */; };
+		1A8EAA4E29119C16007AA1BB /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EAA4D29119C16007AA1BB /* variables.swift */; };
+		1A8EAA4F29119C16007AA1BB /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EAA4D29119C16007AA1BB /* variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		1A8EAA36290F189C007AA1BB /* Hazard 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hazard 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8EAA3C290F189C007AA1BB /* Hazard 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hazard 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8EAA3E290F189C007AA1BB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1A8EAA4D29119C16007AA1BB /* variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				1A8EAA2F290F189B007AA1BB /* Hazard_3App.swift */,
 				1A8EAA30290F189B007AA1BB /* ContentView.swift */,
+				1A8EAA4D29119C16007AA1BB /* variables.swift */,
 				1A8EAA31290F189C007AA1BB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8EAA41290F189C007AA1BB /* ContentView.swift in Sources */,
+				1A8EAA4E29119C16007AA1BB /* variables.swift in Sources */,
 				1A8EAA3F290F189C007AA1BB /* Hazard_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8EAA42290F189C007AA1BB /* ContentView.swift in Sources */,
+				1A8EAA4F29119C16007AA1BB /* variables.swift in Sources */,
 				1A8EAA40290F189C007AA1BB /* Hazard_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

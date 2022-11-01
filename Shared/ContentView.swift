@@ -9,9 +9,9 @@ import SwiftUI
 var obrazy = ["apple", "star", "cherry"]
 
 struct ContentView: View {
-    @State public var a = obrazy.randomElement()
-    @State public var b = obrazy.randomElement()
-    @State public var c = obrazy.randomElement()
+    @State var a = obrazy.randomElement()
+    @State var b = obrazy.randomElement()
+    @State var c = obrazy.randomElement()
     @State public var score: Int = 0
     
     
